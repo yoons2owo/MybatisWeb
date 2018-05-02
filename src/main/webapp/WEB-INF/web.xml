@@ -10,8 +10,48 @@
   	<description></description>
   	<servlet-class>kr.co.gdu.DBTest</servlet-class>
   </servlet>
+  <servlet>
+  	<servlet-name>UserList</servlet-name>
+  	<display-name>UserList</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.UserList</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BoardInsert</servlet-name>
+  	<display-name>BoardInsert</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.BoardInsert</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BoardView</servlet-name>
+  	<display-name>BoardView</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.BoardView</servlet-class>
+  </servlet>
+  <servlet>
+  	<servlet-name>BoardList</servlet-name>
+  	<display-name>BoardList</display-name>
+  	<description></description>
+  	<servlet-class>kr.co.gdu.BoardList</servlet-class>
+  </servlet>
   <servlet-mapping>
   	<servlet-name>DBTest</servlet-name>
   	<url-pattern>/DBTest</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>UserList</servlet-name>
+  	<url-pattern>/UserList</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BoardInsert</servlet-name>
+  	<url-pattern>/BoardInsert</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BoardView</servlet-name>
+  	<url-pattern>/BoardView</url-pattern>
+  </servlet-mapping>
+  <servlet-mapping>
+  	<servlet-name>BoardList</servlet-name>
+  	<url-pattern>/BoardList</url-pattern>
   </servlet-mapping>
 </web-app>
