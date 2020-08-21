@@ -1,2 +1,2 @@
 # MybatisWeb
-Maven Project
+MybatisWeb Project 
